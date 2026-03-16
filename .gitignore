@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Модельдер (өте үлкен файлдар, оларды жүктеудің қажеті жоқ)
+models/
+*.bin
+*.pth
+*.onnx
+
+# Whisper және VAD кэш файлдары
+.cache/
+
+# Жүйелік файлдар
+.vscode/
+.idea/
+.DS_Store
+
+# Логтар
+logs/
+*.log
